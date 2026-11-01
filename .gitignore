@@ -30,3 +30,16 @@ pnpm-debug.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Large media files
+*.mp4
+*.wav
+*.mp3
+*.avi
+*.mkv
+
+# Pitch artifacts (large video/audio/dependency bundles)
+artifacts/
+
+# Sample test documents (generated)
+sample_test_documents/
